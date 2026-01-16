@@ -9,6 +9,7 @@ import LoginPage from "./pages/login";
 import ListingsPage from "./pages/listings";
 import BookDetailPage from "./pages/detail";
 import OrdersPage from "./pages/orders";
+import SeedPage from "./pages/seed";
 import Home from "./pages/home";
 
 //css
@@ -27,6 +28,7 @@ function App() {
                 <Route path="/book/list" element={<ListingsPage />} />
                 <Route path="/book/view/:bookId" element={<BookDetailPage />} />
                 <Route path="/book/orders" element={<OrdersPage />} />
+                <Route path="/seed" element={<SeedPage />} />
             </Routes>
         </div>
     )
